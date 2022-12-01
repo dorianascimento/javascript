@@ -1,3 +1,11 @@
+/*
+Elaborar um programa para simular um parquímetro, o qual leia o valor
+de moedas depositado em um terminal de estacionamento rotativo. O
+programa deve informar o tempo de permanência do veículo no local e o
+troco (se existir), como no exemplo da Figura 3.9. Se o valor for inferior ao
+tempo mínimo, exiba a mensagem: “Valor Insuciente”.
+*/
+
 function conferirDeposito() {
     let valor = document.getElementById('valor');
     let mostrar = document.getElementById('mostrar');
